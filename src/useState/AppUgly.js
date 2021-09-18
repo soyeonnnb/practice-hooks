@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 // useState => content를 바꿔줌 cf. setState는 모든걸 "새로고침" 해줌
 
@@ -11,9 +11,9 @@ function AppBetter() {
   const decrementItem = () => setItem(item - 1);
 
   return (
-    <div className="App">
-      <h1>Hello {item}</h1>
-      <h2>useState</h2>
+    <div className="AppBetter">
+      <h2>UseState</h2>
+      <h3>Hello {item}</h3>
       <button onClick={incrementItem}>increment</button>
       <button onClick={decrementItem}>decrement</button>
     </div>

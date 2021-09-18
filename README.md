@@ -12,9 +12,9 @@ Practice Hooks
 --> 첫번째 인자는 function으로서, effect가 됨
 --> 두번째 인자는 deps(dependency)인데, 만약 deps가 있다면 effect는 리스트에 있는 값이 변할때만 활성화 됨
 
-- [ ] useTitle
+- [x] useTitle
+- [x] useClick
 - [ ] usePageLeave
-- [ ] useClick
 - [ ] useFadeIn
 - [ ] useFullscreen
 - [ ] useHover

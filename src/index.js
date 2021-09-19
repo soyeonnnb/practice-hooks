@@ -13,6 +13,7 @@ import UseClickApp from "./useEffect/UseClick";
 import UseConfirmApp from "./useEffect/UseConfirm";
 import UsePreventLeaveApp from "./useEffect/UsePreventLeave";
 import UseBeforeLeaveApp from "./useEffect/UseBeforeLeave";
+import UseFadeInApp from "./useEffect/UseFadeIn";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -30,6 +31,7 @@ ReactDOM.render(
     <UseConfirmApp />
     <UsePreventLeaveApp />
     <UseBeforeLeaveApp />
+    <UseFadeInApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

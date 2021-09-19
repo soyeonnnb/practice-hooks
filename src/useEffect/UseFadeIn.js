@@ -9,6 +9,7 @@ const useFadeIn = (duration = 1, delay = 0) => {
   useEffect(() => {
     if (element.current) {
       const { current } = element;
+      // property를 나누어 transition.timing 이런식으로 나눠도 됨
       current.style.transition = `opacity ${duration}s ease-in-out ${delay}s`;
       current.style.opacity = 1;
     }

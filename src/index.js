@@ -11,7 +11,7 @@ import UseTabsApp from "./useState/UseTabs";
 import UseTitleApp from "./useEffect/UseTitle";
 import UseClickApp from "./useEffect/UseClick";
 import UseConfirmApp from "./useEffect/UseConfirm";
-import UsePageLeaveApp from "./useEffect/UsePageLeave";
+import UsePreventLeaveApp from "./useEffect/UsePreventLeave";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -27,6 +27,7 @@ ReactDOM.render(
     <UseTitleApp />
     <UseClickApp />
     <UseConfirmApp />
+    <UsePreventLeaveApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

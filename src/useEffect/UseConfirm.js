@@ -24,6 +24,7 @@ const UseConfirmApp = () => {
   const confirmDelete = useConfirm("Are you sure?", deleteWorld, abort);
   return (
     <div className="useconfirm">
+      <h2>UseConfirm</h2>
       <button onClick={confirmDelete}>Delete the world</button>
     </div>
   );

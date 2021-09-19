@@ -14,13 +14,16 @@ Practice Hooks
 
 - [x] useTitle
 - [x] useClick
-- [ ] usePageLeave
+- [ ] useHover
 - [ ] useFadeIn
 - [ ] useFullscreen
-- [ ] useHover
 - [ ] useNetwork
 - [ ] useNotification
 - [ ] useScroll
 - [ ] usePreventLeave
-- [ ] useConfirm
 - [ ] useAxios
+
+--> 이 두개는 useState와 useEffect를 사용하지 않기 때문에 hooks는 아님
+
+- [ ] usePageLeave
+- [x] useConfirm

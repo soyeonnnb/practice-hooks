@@ -10,6 +10,8 @@ import UseTabsApp from "./useState/UseTabs";
 // UseEffect
 import UseTitleApp from "./useEffect/UseTitle";
 import UseClickApp from "./useEffect/UseClick";
+import UseConfirmApp from "./useEffect/UseConfirm";
+import UsePageLeaveApp from "./useEffect/UsePageLeave";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -24,6 +26,7 @@ ReactDOM.render(
     <h1>"UseEffect"</h1>
     <UseTitleApp />
     <UseClickApp />
+    <UseConfirmApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

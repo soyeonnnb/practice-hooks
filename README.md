@@ -14,7 +14,7 @@ Practice Hooks
 
 - [x] useTitle
 - [x] useClick
-- [ ] usePageLeave
+- [x] useBeforeLeave
 - [ ] useHover
 - [ ] useFadeIn
 - [ ] useFullscreen

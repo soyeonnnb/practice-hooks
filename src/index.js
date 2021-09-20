@@ -16,6 +16,7 @@ import UseBeforeLeaveApp from "./useEffect/UseBeforeLeave";
 import UseFadeInApp from "./useEffect/UseFadeIn";
 import UseNetworkApp from "./useEffect/UseNetwork";
 import UseScrollApp from "./useEffect/UseScroll";
+import UseFullscreenApp from "./useEffect/UseFullscreen";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -36,6 +37,7 @@ ReactDOM.render(
     <UseFadeInApp />
     <UseNetworkApp />
     <UseScrollApp />
+    <UseFullscreenApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

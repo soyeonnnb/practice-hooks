@@ -17,7 +17,7 @@ Practice Hooks
 - [x] useBeforeLeave
 - [ ] useHover
 - [x] useFadeIn
-- [ ] useFullscreen
+- [x] useFullscreen
 - [x] useNetwork
 - [ ] useNotification
 - [x] useScroll

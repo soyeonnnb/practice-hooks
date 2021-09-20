@@ -15,6 +15,7 @@ import UsePreventLeaveApp from "./useEffect/UsePreventLeave";
 import UseBeforeLeaveApp from "./useEffect/UseBeforeLeave";
 import UseFadeInApp from "./useEffect/UseFadeIn";
 import UseNetworkApp from "./useEffect/UseNetwork";
+import UseScrollApp from "./useEffect/UseScroll";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -34,6 +35,7 @@ ReactDOM.render(
     <UseBeforeLeaveApp />
     <UseFadeInApp />
     <UseNetworkApp />
+    <UseScrollApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

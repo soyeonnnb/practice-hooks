@@ -20,7 +20,7 @@ Practice Hooks
 - [ ] useFullscreen
 - [x] useNetwork
 - [ ] useNotification
-- [ ] useScroll
+- [x] useScroll
 - [ ] useAxios
 
 --> 이 두개는 useState와 useEffect를 사용하지 않기 때문에 hooks는 아님

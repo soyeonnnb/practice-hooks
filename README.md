@@ -19,7 +19,7 @@ Practice Hooks
 - [x] useFadeIn
 - [x] useFullscreen
 - [x] useNetwork
-- [ ] useNotification
+- [x] useNotification
 - [x] useScroll
 - [ ] useAxios
 

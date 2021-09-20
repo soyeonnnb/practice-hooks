@@ -14,6 +14,7 @@ import UseConfirmApp from "./useEffect/UseConfirm";
 import UsePreventLeaveApp from "./useEffect/UsePreventLeave";
 import UseBeforeLeaveApp from "./useEffect/UseBeforeLeave";
 import UseFadeInApp from "./useEffect/UseFadeIn";
+import UseNetworkApp from "./useEffect/UseNetwork";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -32,6 +33,7 @@ ReactDOM.render(
     <UsePreventLeaveApp />
     <UseBeforeLeaveApp />
     <UseFadeInApp />
+    <UseNetworkApp />
   </React.StrictMode>,
   document.getElementById("root")
 );

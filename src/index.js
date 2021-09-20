@@ -18,6 +18,7 @@ import UseNetworkApp from "./useEffect/UseNetwork";
 import UseScrollApp from "./useEffect/UseScroll";
 import UseFullscreenApp from "./useEffect/UseFullscreen";
 import UseNotificationApp from "./useEffect/UseNotification";
+import UseAxiosApp from "./useEffect/UseAxios";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -40,6 +41,7 @@ ReactDOM.render(
     <UseScrollApp />
     <UseFullscreenApp />
     <UseNotificationApp />
+    <UseAxiosApp />
   </React.StrictMode>,
   document.getElementById("root")
 );
